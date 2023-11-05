@@ -10,3 +10,8 @@ might help with the notation for mathematical expressions.
 $G_1=(V_1 , E_1)$ is isomorphic to $G_2 = (V_2, E_2)$ if there exists a
 one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,v)
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
+
+Due to the definition of isomorphism including bijective mapping, two graphs must have the same number of nodes.
+In order for a function to have a one-to-one mapping on the graphs, an element of $A$ may only be mapped to one
+element in $B$, and vice versa.  If two graphs do not have the same number of elements, this function can not work,
+for there would exist an element in $A$ that could not map to one in $B$, since all of the elements in $B$ are already mapped.  
